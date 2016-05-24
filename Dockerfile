@@ -1,6 +1,6 @@
-FROM index.alauda.cn/tutum/ubuntu:1404
+FROM index.alauda.cn/tutum/ubuntu
 RUN cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
-VOLUME data
+VOLUME /data
 EXPOSE 21 22 80 3306 4443 6800 8005 8009 8080 8888
 ENV ROOT_PASS tzraeqww
 COPY sources.list /etc/apt/sources.list
