@@ -1,4 +1,4 @@
-FROM index.alauda.cn/tutum/ubuntu
+FROM index.alauda.cn/alauda/ubuntu
 RUN cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 VOLUME /data
 EXPOSE 21 22 80 3306 4443 6800 8005 8009 8080 8888
